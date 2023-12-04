@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\EmployeesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::post('/login', [UsersController::class, 'getStatus']);
 
-Route::get('/', function () {
+Route::get('/get/employees', [EmployeesController::class, 'index']);
+
+Route::any('{any}', function () {
     return view('welcome');
-});
+})->where('any', '.*');
