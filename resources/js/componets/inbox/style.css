@@ -1,0 +1,20 @@
+.card {
+    margin: 0 auto; /* Center the card horizontally */
+    max-width: 1000px; /* Set a maximum width for the card */
+height: 700;
+}
+
+  .card-body {
+    padding: 20px; /* Add some padding to the card body */
+
+  }
+  .card-title{
+   margin-bottom: 55px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2rem;
+  }
+  .btn {
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }

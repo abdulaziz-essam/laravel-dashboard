@@ -1,0 +1,38 @@
+<template>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin">AdminPage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hr">Employees List</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+</template>
+<style>
+nav{
+    margin-bottom: 2%;
+}
+</style>
+<script>
+export default {
+
+  data() {
+    return {};
+  },
+};
+</script>

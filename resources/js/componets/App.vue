@@ -1,12 +1,17 @@
 <template>
-    <Breadcrumb />
-<router-view></router-view>
-</template>
+    <Navbar />
+    <router-view></router-view>
+  </template>
 
-<script>
-export default {
-  data() {
-    return {};
-  },
-};
-</script>
+  <script>
+  import Navbar from './navbar/Navbar.vue';
+
+  export default {
+    components: {
+      Navbar
+    },
+    data() {
+      return {};
+    },
+  };
+  </script>

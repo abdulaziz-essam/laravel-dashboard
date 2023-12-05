@@ -1,5 +1,7 @@
 <template>
+
     <div>
+
       <h2>Employees List</h2>
       <table class="table">
         <thead>
@@ -7,7 +9,7 @@
             <th>Name</th>
             <th>Email</th>
             <th>iqama</th>
-            <th>Actions</th>
+
           </tr>
         </thead>
         <tbody>
@@ -15,9 +17,7 @@
             <td>{{ user.name }}</td>
             <td>{{ user.nationality }}</td>
             <td :style="{ color: isIqamaExpiringSoon(user.start_of_work) ? 'red' : '' }">{{ user.iqama_number }}</td>
-            <td>
-
-            </td>
+          
           </tr>
         </tbody>
       </table>

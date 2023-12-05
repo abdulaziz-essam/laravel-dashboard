@@ -9,7 +9,7 @@ const routes = [
         component: Login,
     },
     {
-        path: "/dashboard",
+        path: "/hr",
         name: "dashboard",
         component: Dashboard,
     },
@@ -19,7 +19,7 @@ const routes = [
         component: AdminPage,
     },
     {
-        path: "/inbox",
+        path: "/inbox/:id",
         name: "inbox",
         component: Inbox,
     }
